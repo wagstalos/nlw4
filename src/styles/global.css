@@ -3,7 +3,23 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 :root{
+    --white: #e2e2e2;
+    --background: #212121;
+    --gray-line: #DCDDE0;
+    --text: #666;
+    --text-highlight:#B3B9FF;
+    --title: #2E384D;
+    --red: #E83F5B;
+    --green: #4CD62B;
+    --blue:#5965E0;
+    --blue-dark:#4953b8;
+    --blue-twitter: #2aa9e0;
+    --dark: #121212;
+}
+
+/* :root{
     --white: #fff;
     --background: #f2f3f5;
     --gray-line: #DCDDE0;
@@ -15,7 +31,7 @@
     --blue:#5965E0;
     --blue-dark:#4953b8;
     --blue-twitter: #2aa9e0;
-}
+} */
 
 @media(max-width: 1080px){
     html{
@@ -31,7 +47,7 @@
 
 body{
     background: var(--background);
-    color: var(--text);
+    color: var(--white);
 }
 
 body, input, textarea, button {
